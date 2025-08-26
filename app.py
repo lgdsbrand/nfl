@@ -7,8 +7,8 @@ import requests
 # CONFIG
 # -----------------------
 SHEET_ID = "1gMgIFoeaTUIJAEV73AXWTbFLppJeOrMBLuoKF9c28fc"
-GID = "PASTE_GID_FOR_NFL_TAB"
-CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={GID}"
+GID = "0"
+CSV_URL = f"https://docs.google.com/spreadsheets/d/1gMgIFoeaTUIJAEV73AXWTbFLppJeOrMBLuoKF9c28fc/export?format=csv&gid=0
 
 st.set_page_config(page_title="NFL Model - LineupWire", layout="wide")
 
