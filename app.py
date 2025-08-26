@@ -3,9 +3,9 @@ import streamlit as st
 import requests
 from io import StringIO
 
-SHEET_ID = "1gMJFoat1UJAEV73AXWTbFLppJeOrMBLuokF9c28fc"   # <- yours
+SHEET_ID = "1gMglFoeaTUIJAEV73AXWTbFLppJeOrMBLuoKF9c28fc"   # <- yours
 GID = "0"                                                # <- Model tab gid
-CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={GID}"
+CSV_URL = f"https://docs.google.com/spreadsheets/d/1gMglFoeaTUIJAEV73AXWTbFLppJeOrMBLuoKF9c28fc/export?format=csv&gid=0"
 
 st.set_page_config(page_title="NFL Model – Debug", layout="wide")
 st.title("🏈 NFL Model – Debug")
